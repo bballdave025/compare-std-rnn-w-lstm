@@ -1,0 +1,10 @@
+# Starter dependencies; pin exact versions after the first reproducible run.
+notebook
+ipykernel
+pandas
+matplotlib
+numpy
+datasets
+pyarrow
+scikit-learn
+torch
