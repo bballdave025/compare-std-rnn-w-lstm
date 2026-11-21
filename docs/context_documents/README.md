@@ -53,8 +53,20 @@ RNN/LSTM Implementation — Bring-Your-Own Amazon Reviews Project
 **Prepared at:**
 {{ssssssssss_YYYY-mm-ddTHH:MM:SS±ZZZZ}}
 
-Generated in Boston time with:
-`TZ=America/New_York date +'%s_%Y-%m-%dT%H:%M:%S%z'`
+**IANA timezone:**
+{{DAVE_IANA_TIMEZONE}}
+
+Generated via (Unix-like shell, after confirming Dave's current timezone):
+
+TZ={{DAVE_IANA_TIMEZONE}} date +'%s_%Y-%m-%dT%H:%M:%S%z'
+
+Use Dave's **current local timezone at document-creation time**. Record both
+the IANA timezone name and the numeric UTC offset. **Do not infer Dave's
+timezone from the execution host.** If Dave's current timezone is unknown,
+ask him before generating authoritative timestamp metadata.
+
+For example, `America/Denver` applied while Dave lived in Utah in
+November 2026; it is **not** a permanent default.
 
 **Continued from chat:**
 {{Exact chat title}}
